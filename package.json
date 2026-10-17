@@ -1,0 +1,10 @@
+{
+  "name": "painel-privado",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Serve o painel financeiro semanal só após login (senha verificada no servidor, com limite de tentativas).",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "hash": "node hash-password.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "bcryptjs": "2.4.3" }
+}

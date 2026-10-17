@@ -1,0 +1,12 @@
+node_modules/
+data/
+logs/
+*.log
+.env
+.env.*
+*.env
+state.json
+session_secret
+*token*
+*.html
+*.pdf

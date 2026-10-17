@@ -1,0 +1,13 @@
+.git
+node_modules
+data
+logs
+*.log
+.env
+.env.*
+*.env
+*token*
+*.html
+*.pdf
+test_local.sh
+README.md
